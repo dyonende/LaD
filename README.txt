@@ -37,7 +37,6 @@ To obtain the result from the blog post, run this script with the data set that 
 
 DATA
 The data can be found here: https://drive.google.com/drive/folders/1VpXCXaRFJPaZZzoSol9V8eV9bdVAcvOz?usp=sharing
-All news article data can be found in the folder ‘data’.
 This folder contains two tsv files and three subfolders. The two tsv files are the same data as the json files in the folders for Dutch and German, but in a different format. In the ‘mt’ folder, the data is already in tsv format.
 
 
