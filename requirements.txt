@@ -1,0 +1,43 @@
+﻿Requirements
+---------------------------------------------------------------------
+The code should work on all hardware, but can take some time to run, especially the run_all_analyses script.
+For each language, a Word2Vec model was used to do the analyses.
+These can be found here:
+
+
+German model: https://devmount.github.io/GermanWordEmbeddings/
+download link: http://cloud.devmount.de/d2bc5672c523b086
+
+
+Dutch model: https://github.com/coosto/dutch-word-embeddings
+download link: https://github.com/coosto/dutch-word-embeddings/releases/download/v1.0/model.bin
+
+
+Maltese Fasttext model download link: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.mt.300.vec.gz
+
+
+
+
+The following Python libraries were used:
+random
+itertools
+Sci-kit Learn
+BeautifulSoup4
+newspaper
+tldextract
+requests
+re
+numpy
+sys
+stanza
+string
+os
+json
+pandas
+glob
+random
+nltk
+gensim
+wordcloud
+matplotlib
+collections
