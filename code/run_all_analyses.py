@@ -57,7 +57,7 @@ def preprocess_de(article):
 
 def preprocess_nl(article):
     stopwords = nltk.corpus.stopwords.words('dutch')
-    processed_article = data['nl'].process(article)
+    processed_article = data['nl']['nlp'].process(article)
     all_lemmas = []
     for s in processed_article.sentences: 
         clean_lemmas = list()
