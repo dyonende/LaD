@@ -23,7 +23,7 @@ random
 itertools
 Sci-kit Learn
 BeautifulSoup4
-newspaper
+newspaper3k
 tldextract
 requests
 re
