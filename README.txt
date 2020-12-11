@@ -1,7 +1,6 @@
 ﻿Authors: Dyon van der Ende, Etienne Galea, Lois Rink
 Research question: Are Maltese news articles less objective than Dutch and German news articles on the topic of abortion?
-Link to blog post: https://languageasdata.wordpress.com/2020/12/03/very-awezzome-blog-post-by-dyon-etienne-lois/
-
+Link to blog post: https://languageasdata.wordpress.com/2020/12/03/cultural-acceptance-of-abortion
 
 Before continuing, please make sure all requirements from the requirements.txt are fulfilled.
 
