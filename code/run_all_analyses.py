@@ -139,7 +139,7 @@ def wordcloud_cluster_byIds(clusterId, clusters, keywords, lang):
     plt.figure()
     plt.imshow(wordcloud)
     plt.axis("off")
-    plt.savefig("wordclouds/"+lang+str(clusterId)+".png")
+    plt.savefig(lang+str(clusterId)+".png")
 
 
 def cluster_wordcloud(dataset, lang):
