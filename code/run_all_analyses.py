@@ -139,7 +139,7 @@ def wordcloud_cluster_byIds(clusterId, clusters, keywords, lang):
     plt.figure()
     plt.imshow(wordcloud)
     plt.axis("off")
-    plt.savefig(lang+str(clusterId)+".png")
+    plt.savefig("wordclouds/"+lang+str(clusterId)+".png")
 
 
 def cluster_wordcloud(dataset, lang):
@@ -188,7 +188,12 @@ def cluster_wordcloud(dataset, lang):
             
         # Take the mean over the keywords
         mean_keywords = np.mean(doc_representation, axis=0)
-        all_doc_representations.append(mean_keywords)
+        #this will prevent an error for corrupt entries
+        try:
+            len(mean_keywords)
+            all_doc_representations.append(mean_keywords)
+        except:
+            pass
 
     # Number of clusters
     num_clusters = 4
