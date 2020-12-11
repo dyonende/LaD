@@ -270,9 +270,9 @@ for k, v in data.items():
     
     # train custom model and visualize word vectors with that model
     print('training custom model based on data...')
-    #model = train_custom_model(v)
+    model = train_custom_model(v)
     print('creating word vectors based on custom model...')
-    #visualize_word_vectors(v, k, model, model.wv.vocab)
+    visualize_word_vectors(v, k, model, model.wv.vocab)
 
     # display a cluster wordcloud for each language
     print('Creating wordcloud based on fasttext model...')
